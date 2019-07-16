@@ -8,4 +8,13 @@ If you have any doubt regarding the access token generation or usage please visi
 
 You will also need git to be already installed on the system, if don't have it yet or you don't know how to install it please visit: https://bit.ly/1WQ50nb
 
-![alt text](https://github.com/mouralx/azurecloner/blob/master/prtscr.png)
+![AzureCloner](https://github.com/mouralx/azurecloner/blob/master/prtscr.png)
+
+**Requirements**
+[Microsoft .NET Core](https://dotnet.microsoft.com/download)
+
+**Build** (in a linux shell, windows command line or osx terminal)
+dotnet build AzureCloner.sln
+
+**Run**
+dotnet run AzureCloner.sln
