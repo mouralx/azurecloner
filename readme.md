@@ -14,7 +14,11 @@ You will also need git to be already installed on the system, if don't have it y
 [Microsoft .NET Core](https://dotnet.microsoft.com/download)
 
 **Build** (in a linux shell, windows command line or osx terminal)
-dotnet build AzureCloner.sln
+
+    dotnet build AzureCloner.sln
 
 **Run**
-dotnet run AzureCloner.sln
+
+    dotnet run AzureCloner.sln
+
+Enjoy it !
