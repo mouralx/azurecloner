@@ -8,7 +8,7 @@ If you have any doubt regarding the access token generation or usage please visi
 [Microsoft - Access Authentication With Personal Access Tokens](https://dotnet.microsoft.com/download)
 
 You will need git already to be installed, if don't have it yet or you don't know how to install go to: 
-[git - Download]([https://git-scm.com/downloads](https://git-scm.com/downloads))
+[git - Download](https://git-scm.com/downloads)
 
 ![AzureCloner](https://github.com/mouralx/azurecloner/blob/master/prtscr.png)
 
