@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Web;
 
 namespace AzureCloner
 {
@@ -40,7 +41,10 @@ namespace AzureCloner
 
             string password = PasswordHelper.ReadPassword();
 
-            if (string.IsNullOrEmpty(projectUrl) || string.IsNullOrEmpty(directory) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
+            if (string.IsNullOrEmpty(projectUrl)
+                || string.IsNullOrEmpty(directory)
+                || string.IsNullOrEmpty(email)
+                || string.IsNullOrEmpty(password))
             {
                 Console.Clear();
                 Console.WriteLine("Execution aborted, you must provide all info to execute this tool.");
@@ -79,7 +83,7 @@ namespace AzureCloner
 
                 Environment.CurrentDirectory = directory;
 
-                foreach(DevOpsRepo devOpsRepo in devOpsRepos)
+                foreach (DevOpsRepo devOpsRepo in devOpsRepos)
                 {
                     Console.Clear();
 
@@ -99,7 +103,7 @@ namespace AzureCloner
 
                         startInfo.FileName = "git";
 
-                        startInfo.Arguments = $"clone {devOpsRepo.RemoteUrl}";
+                        startInfo.Arguments = $"clone {devOpsRepo.RemoteUrl.Replace("://", $"://{HttpUtility.UrlEncode(email)}:{password}@")}";
 
                         process.StartInfo = startInfo;
 
