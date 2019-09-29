@@ -1,0 +1,13 @@
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\bin\Debug\netcoreapp3.0\AzureCloner.exe
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\bin\Debug\netcoreapp3.0\AzureCloner.deps.json
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\bin\Debug\netcoreapp3.0\AzureCloner.runtimeconfig.json
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\bin\Debug\netcoreapp3.0\AzureCloner.runtimeconfig.dev.json
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\bin\Debug\netcoreapp3.0\AzureCloner.dll
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\bin\Debug\netcoreapp3.0\AzureCloner.pdb
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\obj\Debug\netcoreapp3.0\AzureCloner.csprojAssemblyReference.cache
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\obj\Debug\netcoreapp3.0\AzureCloner.AssemblyInfoInputs.cache
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\obj\Debug\netcoreapp3.0\AzureCloner.AssemblyInfo.cs
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\obj\Debug\netcoreapp3.0\AzureCloner.csproj.CopyComplete
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\obj\Debug\netcoreapp3.0\AzureCloner.dll
+C:\Users\Nuno Moura\Desktop\azurecloner\AzureCloner\obj\Debug\netcoreapp3.0\AzureCloner.pdb

@@ -9,7 +9,7 @@ namespace AzureCloner.Data
         public string Url { get; set; }
         [JsonProperty("project")] public DevOpsProject DevOpsProject { get; set; }
         public string DefaultBranch { get; set; }
-        public int Size { get; set; }
+        public long Size { get; set; }
         public string RemoteUrl { get; set; }
         public string SshUrl { get; set; }
         public string WebUrl { get; set; }
