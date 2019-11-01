@@ -1,0 +1,11 @@
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\bin\Debug\netcoreapp2.2\AzureCloner.deps.json
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\bin\Debug\netcoreapp2.2\AzureCloner.runtimeconfig.json
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\bin\Debug\netcoreapp2.2\AzureCloner.runtimeconfig.dev.json
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\bin\Debug\netcoreapp2.2\AzureCloner.dll
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\bin\Debug\netcoreapp2.2\AzureCloner.pdb
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\obj\Debug\netcoreapp2.2\AzureCloner.csprojAssemblyReference.cache
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\obj\Debug\netcoreapp2.2\AzureCloner.csproj.CoreCompileInputs.cache
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\obj\Debug\netcoreapp2.2\AzureCloner.AssemblyInfoInputs.cache
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\obj\Debug\netcoreapp2.2\AzureCloner.AssemblyInfo.cs
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\obj\Debug\netcoreapp2.2\AzureCloner.dll
+C:\Users\Nuno Moura\source\repos\azurecloner\AzureCloner\obj\Debug\netcoreapp2.2\AzureCloner.pdb
