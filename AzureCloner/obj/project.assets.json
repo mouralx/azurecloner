@@ -1,6 +1,7 @@
 {
   "version": 3,
   "targets": {
+<<<<<<< HEAD
     ".NETCoreApp,Version=v2.2": {
       "Microsoft.NETCore.App/2.2.0": {
         "type": "package",
@@ -208,6 +209,9 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+=======
+    ".NETCoreApp,Version=v3.0": {
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
       "Newtonsoft.Json/12.0.2": {
         "type": "package",
         "compile": {
@@ -220,6 +224,7 @@
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "Microsoft.NETCore.App/2.2.0": {
       "sha512": "7z5l8Jp324S8bU8+yyWeYHXUFYvKyiI5lqS1dXgTzOx1H69Qbf6df12kCKlNX45LpMfCMd4U3M6p7Rl5Zk7SLA==",
       "type": "package",
@@ -689,6 +694,8 @@
         "netstandard.library.nuspec"
       ]
     },
+=======
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
     "Newtonsoft.Json/12.0.2": {
       "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
       "type": "package",
@@ -721,8 +728,12 @@
     }
   },
   "projectFileDependencyGroups": {
+<<<<<<< HEAD
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NETCore.App >= 2.2.0",
+=======
+    ".NETCoreApp,Version=v3.0": [
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
       "Newtonsoft.Json >= 12.0.2"
     ]
   },
@@ -734,11 +745,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Nuno Moura\\source\\repos\\azurecloner\\AzureCloner\\AzureCloner.csproj",
       "projectName": "AzureCloner",
       "projectPath": "C:\\Users\\Nuno Moura\\source\\repos\\azurecloner\\AzureCloner\\AzureCloner.csproj",
       "packagesPath": "C:\\Users\\Nuno Moura\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Nuno Moura\\source\\repos\\azurecloner\\AzureCloner\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Nuno Moura\\Desktop\\azurecloner\\AzureCloner\\AzureCloner.csproj",
+      "projectName": "AzureCloner",
+      "projectPath": "C:\\Users\\Nuno Moura\\Desktop\\azurecloner\\AzureCloner\\AzureCloner.csproj",
+      "packagesPath": "C:\\Users\\Nuno Moura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nuno Moura\\Desktop\\azurecloner\\AzureCloner\\obj\\",
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -750,6 +769,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
+<<<<<<< HEAD
         "netcoreapp2.2"
       ],
       "sources": {
@@ -761,6 +781,16 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+=======
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
           "projectReferences": {}
         }
       },
@@ -771,6 +801,7 @@
       }
     },
     "frameworks": {
+<<<<<<< HEAD
       "netcoreapp2.2": {
         "dependencies": {
           "Microsoft.NETCore.App": {
@@ -779,6 +810,10 @@
             "version": "[2.2.0, )",
             "autoReferenced": true
           },
+=======
+      "netcoreapp3.0": {
+        "dependencies": {
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[12.0.2, )"
@@ -793,7 +828,17 @@
           "net48"
         ],
         "assetTargetFallback": true,
+<<<<<<< HEAD
         "warn": true
+=======
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
       }
     }
   }

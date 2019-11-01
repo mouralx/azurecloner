@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Nuno Moura\\source\\repos\\azurecloner\\AzureCloner\\AzureCloner.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Nuno Moura\\source\\repos\\azurecloner\\AzureCloner\\AzureCloner.csproj",
         "packagesPath": "C:\\Users\\Nuno Moura\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Nuno Moura\\source\\repos\\azurecloner\\AzureCloner\\obj\\",
+=======
+    "C:\\Users\\Nuno Moura\\Desktop\\azurecloner\\AzureCloner\\AzureCloner.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Nuno Moura\\Desktop\\azurecloner\\AzureCloner\\AzureCloner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Nuno Moura\\Desktop\\azurecloner\\AzureCloner\\AzureCloner.csproj",
+        "projectName": "AzureCloner",
+        "projectPath": "C:\\Users\\Nuno Moura\\Desktop\\azurecloner\\AzureCloner\\AzureCloner.csproj",
+        "packagesPath": "C:\\Users\\Nuno Moura\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nuno Moura\\Desktop\\azurecloner\\AzureCloner\\obj\\",
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,6 +37,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
+<<<<<<< HEAD
           "netcoreapp2.2"
         ],
         "sources": {
@@ -34,6 +49,16 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+=======
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
             "projectReferences": {}
           }
         },
@@ -44,6 +69,7 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.NETCore.App": {
@@ -52,6 +78,10 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+=======
+        "netcoreapp3.0": {
+          "dependencies": {
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.2, )"
@@ -66,7 +96,17 @@
             "net48"
           ],
           "assetTargetFallback": true,
+<<<<<<< HEAD
           "warn": true
+=======
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> 9df5dd316c2b09aebfc2222584bfc261f2317bc9
         }
       }
     }
