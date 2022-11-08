@@ -41,10 +41,16 @@ namespace AzureCloner
 
             string password = PasswordHelper.ReadPassword();
 
+            Console.Write("\n\tEmbed Auth in Git Config (Y)es/(N)o: ");
+
+            string embedAuthString = Console.ReadLine();
+            embedAuthString = embedAuthString.ToLower();
+
             if (string.IsNullOrEmpty(projectUrl)
                 || string.IsNullOrEmpty(directory)
                 || string.IsNullOrEmpty(email)
-                || string.IsNullOrEmpty(password))
+                || string.IsNullOrEmpty(password)
+                || string.IsNullOrEmpty(embedAuthString))
             {
                 Console.Clear();
                 Console.WriteLine("Execution aborted, you must provide all info to execute this tool.");
@@ -52,6 +58,13 @@ namespace AzureCloner
             }
             else
             {
+                bool embedAuth = embedAuthString == "y";
+                if (!embedAuth && embedAuthString != "n")
+                {
+                    Console.WriteLine("\"Embed Auth in Git Config\" should be \"y\" (for yes) or \"n\" (for no). Assuming no..");
+                    embedAuth = false;
+                }
+
                 WebRequest webRequest = WebRequest.CreateHttp($"{projectUrl}/_apis/git/repositories?api-version=1.0");
 
                 ASCIIEncoding asciiEncoding = new ASCIIEncoding();
@@ -85,6 +98,12 @@ namespace AzureCloner
 
                 foreach (DevOpsRepo devOpsRepo in devOpsRepos)
                 {
+                    string repoRemoteUrl = devOpsRepo.RemoteUrl;
+                    if (embedAuth)
+                    {
+                        repoRemoteUrl = repoRemoteUrl.Replace("://", $"://{HttpUtility.UrlEncode(email)}:{password}@");
+                    }
+
                     Console.Clear();
 
                     Console.ForegroundColor = ConsoleColor.Green;
@@ -103,7 +122,7 @@ namespace AzureCloner
 
                         startInfo.FileName = "git";
 
-                        startInfo.Arguments = $"clone {devOpsRepo.RemoteUrl.Replace("://", $"://{HttpUtility.UrlEncode(email)}:{password}@")}";
+                        startInfo.Arguments = $"clone {repoRemoteUrl}";
 
                         process.StartInfo = startInfo;
 
